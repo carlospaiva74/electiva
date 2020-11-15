@@ -17,7 +17,7 @@ class CreateCategorias54Table extends Migration
             $table->id();
             $table->string('nombre',60);
             $table->string('descripcion',256);
-            $table->integer('codincion');
+            //$table->integer('codincion');
             $table->timestamps();
         });
     }

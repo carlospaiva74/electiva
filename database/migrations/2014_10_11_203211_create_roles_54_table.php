@@ -17,7 +17,7 @@ class CreateRoles54Table extends Migration
             $table->id();
             $table->string('nombre',30);
             $table->string('descripcion',100);
-            $table->integer('condicion');
+            //$table->integer('condicion');
             $table->timestamps();
         });
     }

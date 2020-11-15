@@ -15,6 +15,10 @@ class CreatePersonas54Table extends Migration
     {
         Schema::create('personas_54', function (Blueprint $table) {
             $table->id();
+
+            $table->unsignedBigInteger('id_user');
+            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
+
             $table->string('nombre',100);
             $table->string('tipo_documento',20);
             $table->string('num_documento',20);

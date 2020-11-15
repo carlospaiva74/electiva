@@ -24,7 +24,7 @@ class CreateArticulos54Table extends Migration
             $table->float('precio_venta');
             $table->integer('stock');
             $table->string('descripcion',256);
-            $table->integer('condicion');
+            //$table->integer('condicion');
             $table->timestamps();
         });
     }
