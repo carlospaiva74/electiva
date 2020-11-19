@@ -11,7 +11,7 @@
 
                 <ul class="navbar-item flex-row ml-md-auto">
                     <li class="nav-item ml-3 mr-1">
-                        <h5 class="text-white" style="margin-top: .7rem !important;">{{Auth::user()->name}}</h5>
+                        <h5 class="text-white" style="margin-top: .7rem !important;">{{Auth::user()->persona->nombre}}</h5>
                     </li>
                     <li class="nav-item dropdown user-profile-dropdown">
                         <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

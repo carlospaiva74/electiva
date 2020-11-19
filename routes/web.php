@@ -31,5 +31,6 @@ Route::middleware(['auth'])->group(function(){
 
 	Route::resource('/categorias',App\Http\Controllers\CategoriasController::class);
 	Route::resource('/articulos', App\Http\Controllers\ArticulosController::class);
+	Route::resource('/usuarios',  App\Http\Controllers\UsersController::class);
 	
 });
